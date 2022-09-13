@@ -1,0 +1,6 @@
+
+ESP8266 - Display
+D2 - CLK
+D3 - DIO
+GND - GND
+3V - VCC
