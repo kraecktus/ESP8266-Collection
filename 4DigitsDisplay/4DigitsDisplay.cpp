@@ -2,9 +2,9 @@
 #include <Arduino.h>
 #include <TM1637Display.h>
 
-const int CLK = 4;                              // Set the CLK pin connection to the display
-const int DIO = 0;                              // Set the DIO pin connection to the display
-TM1637Display display(CLK, DIO);                // set up the 4-Digit Display.
+const int CLK = 4;                              // PIN D2
+const int DIO = 0;                              // PIN D3
+TM1637Display display(CLK, DIO);                
 uint8_t Segments[4] = {0x00, 0x00, 0x00, 0x00}; // blank on start
 int Count[4] = {0, 0, 0, 0};
 
